@@ -1,0 +1,36 @@
+    1  git config --global user.name "Hanna Chystiakova"
+    2  git config --global user.e-mail chystiakovaanna@gmail.com
+    3  git clone https://github.com/Anna130891/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add .gitignore.txt
+    9  git add .gitignore
+   10  git status
+   11  git commit -m "task1.7"
+   12  touch main_test.txt
+   13  git add main_test.txt
+   14  git status
+   15  git commit -m "task2.3" 
+   16  git checkout -b develop
+   17  git checkout develop
+   18  git branch
+   19  touch develop_test.txt
+   20  git add develop_test.txt
+   21  git commit -m "task 3.4"
+   22  nano develop_test.txt
+   23  git status
+   24  git add develop_test.txt
+   25  git status
+   26  git commit -m " task 3.8"
+   27  git check out main
+   28  git checkout main
+   29  git merge develop 
+   30  git log
+   31  command_list.csv
+   32  cd Documents
+   33  cd Git
+   34  cd HW_10
+   35  command_list.cvs
+   36  history>command_list.cvs
